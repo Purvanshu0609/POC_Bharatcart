@@ -20,7 +20,7 @@ st.title("BharatCart Inventory & Retention Analysis")
 @st.cache
 def load_data():
     # Ensure the file path is correct on your machine
-    file_path = r"C:\Users\purvanshu\Downloads\BharatCart_Ecommerce_Dataset.csv"
+    file_path = r"BharatCart_Ecommerce_Dataset.csv"
     df = pd.read_csv(file_path)
     
     # Convert the 'date_' column to datetime format
@@ -29,7 +29,7 @@ def load_data():
     
 def load_data2():
     # Ensure the file path is correct on your machine
-    file_path = r"C:\Users\purvanshu\Exercise\encoded_bharatcart_data.csv"
+    file_path = r"encoded_bharatcart_data.csv"
     df2 = pd.read_csv(file_path)
     
     # Convert the 'order_date' column to datetime format
